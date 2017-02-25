@@ -1,2 +1,15 @@
 name: PlayerLovesServerBroadcaster
 main: Player\Loves\Broadcaster
+version: 0.1.0
+api: [3.0.0-ALPHA4]
+description: Broadcasts that a player loves your server
+author: PianoRalph04
+
+commands:
+  like:
+    description: Do /like help for all parameters
+    usage: "/like"
+
+permissions:
+  plsb.cmd.like
+    default: true
