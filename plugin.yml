@@ -1,1 +1,2 @@
-name:
+name: PlayerLovesServerBroadcaster
+main: Player\Loves\Broadcaster
