@@ -1,5 +1,5 @@
 name: PlayerLovesServerBroadcaster
-main: Player\Loves\Broadcaster
+main: Player/Loves/Broadcaster
 version: 0.1.0
 api: [3.0.0-ALPHA4]
 description: Broadcasts that a player loves your server
