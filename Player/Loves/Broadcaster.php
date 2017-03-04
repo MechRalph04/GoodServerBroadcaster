@@ -2,13 +2,12 @@
 
 namespace Broadcaster;
 
-use pocketmine\plugin\PluginBase
-use pocketmine\command\CommandSender
-use pocketmine\command\Command
-use pocketmine\Player
+use pocketmine\plugin\PluginBase;
+use pocketmine\command\CommandSender;
+use pocketmine\command\Command;
 
 class Broadcaster extends PluginBase{
+    public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+        switch($command->getName())
+        case
 
-           public function onLoad(){
-                     $this->getLogger()->info("Plugin Loading");
-          
