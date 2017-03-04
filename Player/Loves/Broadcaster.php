@@ -9,5 +9,5 @@ use pocketmine\command\Command;
 class Broadcaster extends PluginBase{
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         switch($command->getName())
-        case
-
+        case "slove"
+            $this->getServer()->broadcastMessage("I love this server!");
